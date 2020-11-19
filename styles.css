@@ -17,6 +17,21 @@ h1 {
     border-bottom: 2px solid black;
   }
   #players{
+      margin-top: 50px;
       display: flex;
       justify-content: space-around;
   }
+  #players button{
+      width: 70px; 
+      border: 0.5px solid black;
+  }
+  #players button:hover{
+    background-color: #eee;
+}
+
+.start{
+  background-color: #90ee90;
+}
+.restart{
+  background-color: #ffcccb;
+}

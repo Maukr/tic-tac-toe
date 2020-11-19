@@ -10,24 +10,26 @@
     <h1>Tic Tac Toe</h1>
     <table>
         <tr>
-          <td></td>
-          <td class="vert"></td>
-          <td></td>
+          <td class="cell" data-pos="0"></td>
+          <td class="cell vert" data-pos="1"></td>
+          <td class="cell" data-pos="2" ></td>
         </tr>
         <tr>
-          <td class="hori"></td>
-          <td class="vert hori"></td>
-          <td class="hori"></td>
+          <td class="cell hori" data-pos="3"></td>
+          <td class="cell vert hori" data-pos="4"></td>
+          <td class="cell hori" data-pos="5"></td>
         </tr>
         <tr>
-          <td></td>
-          <td class="vert"></td>
-          <td></td>
+          <td class="cell" data-pos="6"></td>
+          <td class="cell vert" data-pos="7"></td>
+          <td class="cell" data-pos="8"></td>
         </tr>
     </table>
     <div id="players">
         <p>Player 1: X</p>
+        <button class="start">Start</button>
         <p>Player 2: O</p>
     </div>
+    <script type="text/javascript" src="main.js"></script>
 </body>
 </html>
